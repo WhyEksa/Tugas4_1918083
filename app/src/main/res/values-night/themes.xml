@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+        <style name="NoActionBar" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+            <item name="windowActionBar">false</item>
+            <item name="windowNoTitle">true</item>
+            <item name="android:statusBarColor">@android:color/transparent</item>
+            <item name="drawerArrowStyle">@style/drawerarrowstyle</item>
+            <item name="colorPrimary">#222831</item>
+            <item name="colorPrimaryVariant">#D65A31</item>
+            <item name="colorOnPrimary">#EEEEEE</item>
+        </style>
+        <style name="drawerarrowstyle" parent="Widget.AppCompat.DrawerArrowToggle">
+            <item name="spinBars">true</item>
+            <item name="color">#EEEEEE</item>
+        </style>
+</resources>
